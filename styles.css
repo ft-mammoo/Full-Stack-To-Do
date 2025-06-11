@@ -1,0 +1,81 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card Styling */
+.todo-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Todo List Styling */
+.todo-list {
+  list-style-type: none;
+}
+
+.todo-list li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-list label {
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Sub-item Styling */
+.sub-item {
+  list-style-type: none;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.sub-item-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+}
+
+.sub-item-link:hover {
+  color: #0056b3;
+}
+
+.sub-item-link:focus {
+  outline: 2px solid #0056b3;
+}
+
+.sub-item-link:visited {
+  color: #6f42c1;
+}
+.sub-item-link:active {
+  color: #ff5733;
+}
